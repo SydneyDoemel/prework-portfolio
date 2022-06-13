@@ -1,0 +1,253 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    display: inline; 
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+nav ul {
+    background-color: black;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: block;
+    color: white;
+}
+
+nav a {
+    color: #f2a1a1;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    font-size: larger;
+}
+
+.hero-text {
+    box-sizing: border-box;
+    text-align: center;
+    font-stretch: ultra-expanded;
+    font-weight: 50;
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin: 30px 0;
+}
+
+/*#about, #media, #social{     #THIS IS IN THE INDIVIDUAL ID'S NOW
+    /*border: .5px solid gray;*/
+   /* box-sizing: border-box;
+    width: 90%;
+    margin:auto;
+    font-family: 'Roboto Flex', sans-serif; 
+} */
+
+#home {
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;    
+    border-bottom: 30px solid white;
+    /*border: .5px solid gray;*/
+    box-sizing: border-box;
+    width: 90%;
+    margin:auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.home_par {
+    padding-left: 60vh;
+    margin-top: 15vh;
+    padding-top: 18vh;
+    font-size: 25px;
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    border-top: 2px solid #f2a1a1;
+}
+
+#home img {
+    height: 35em;
+    width: auto;
+    position: relative;
+    margin-right: 46em; 
+    
+    margin-top: -291px;
+    border-bottom: 2px solid #f2a1a1;
+    border-right: 2px solid #f2a1a1;
+   
+}
+
+#about {
+    /*border: .5px solid gray;*/
+    box-sizing: border-box;
+    width: 90%;
+    margin:auto;
+    font-family: 'Roboto Flex', sans-serif;
+    height: 880px;
+    padding-top: 90px;
+    background-color: black;
+    color: white;
+    border-bottom: 30px solid white;
+}
+
+
+#about h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f2a1a1;
+}
+
+.about p {
+    font-size: 25px;
+    margin: 20px 60px;
+}
+
+.bio {
+    padding: 20px; 
+    line-height: 2;
+}
+
+#media {
+    /*border: .5px solid gray;*/
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto Flex', sans-serif;
+    height: 1100px;
+    padding-top: 100px;
+    background-color: black;
+    color: white;
+    border-bottom: 30px solid white;
+}
+
+
+
+
+#media img{
+   /* margin: none;*/
+    width: 320px;
+    height: auto;
+    border: 1px solid #f2a1a1;
+}
+
+
+.media_head{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.media_head h1 {
+    font-size: 60px;
+}
+
+.media_head p {
+    font-size: 20px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 4px;
+}
+
+#social {
+    /*border: .5px solid gray;*/
+    box-sizing: border-box;
+    width: 90%;
+    margin:auto;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+button {
+    background-color: #f2a1a1;
+    display: inline-block;
+    border: none;
+    width: 510px;
+    font-weight: bold;
+}
+button:hover{
+    color: white;
+}
+
+form {
+    padding-left: 100px;
+}
+
+#name {
+    margin-bottom: 15px;
+}
+
+#body {
+margin-bottom: 15px;
+}
+
+.social p {
+    font-size: 18px;
+    padding-left: 100px;
+}
+
+.social a {
+    color: rgb(255, 175, 175);
+}
+
+.social a:hover{
+    color: white;
+}
+
+#social {
+    height: 800px;
+    background-color: black;
+    color: white;
+    
+}
+
+#social h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+#social .listen {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.social li {
+    list-style-type: none;
+    text-align: center;
+   
+}
+
+.social ul {
+    padding-top: 65px;
+}
+
+footer {
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
