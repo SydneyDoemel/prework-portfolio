@@ -54,14 +54,6 @@ nav a:hover {
     
 }
 
-/*#about, #media, #social{     #THIS IS IN THE INDIVIDUAL ID'S NOW
-    /*border: .5px solid gray;*/
-   /* box-sizing: border-box;
-    width: 90%;
-    margin:auto;
-    font-family: 'Roboto Flex', sans-serif; 
-} */
-
 #home {
     height: 1000px;
     display: flex;
